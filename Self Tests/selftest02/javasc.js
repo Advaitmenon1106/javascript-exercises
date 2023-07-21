@@ -1,7 +1,7 @@
 const reverseString = function(word) {
     stack = [];
     for (i = 0; i<word.length; i++){
-        stack.push(word.charAt(i));
+        stack.push(word.charAt());
     }
 
     reversed = ''
@@ -14,5 +14,6 @@ const reverseString = function(word) {
     return reversed;
 };
 
-// Do not edit below this line
-module.exports = reverseString;
+console.log(reverseString(" "));
+console.log(reverseString("abc! 123!"));
+a = []
